@@ -1,0 +1,257 @@
+body,
+nav {
+  margin: 0%;
+  padding: 0%;
+}
+h1,
+a,
+p,
+h5,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  height: 48px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.2px solid rgba(128, 128, 128, 0.42);
+}
+.Search {
+  height: 36px;
+  width: 200px;
+  background-color: whitesmoke;
+  border: none;
+}
+.content {
+  height: 92vh;
+  background-color: #073042;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dv1 {
+  width: 50vw;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.dv1 > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  padding-left: 65px;
+}
+.dv1 > p {
+  color: white;
+  font-size: larger;
+  padding-left: 65px;
+  line-height: 30px;
+}
+.dv2 {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dv {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 271px !important;
+  width: 1103px;
+  background-color: #1769e0;
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 389px;
+  height: 238px;
+  padding-right: 150px;
+}
+.txt {
+  color: white;
+  height: 238px;
+}
+.txt > h1 {
+  padding-top: -50px;
+  font-weight: 500;
+}
+.txt > h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0%;
+}
+.Btnl {
+  color: white;
+  font-size: medium;
+  background-color: #073042;
+  width: 289px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  display: inline-block;
+  font-weight: 600;
+  margin: 4px, 4px, 4px, 12px;
+}
+.Btnl:hover {
+  background-color: #eff7cf;
+  color: black;
+}
+.Btnr {
+  color: white;
+  background-color: #1769e0;
+  border: 2px solid white;
+  margin-left: 12px;
+  border-radius: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 48px;
+  width: 174px;
+}
+.Btnr:hover {
+  color: black;
+  background-color: white;
+}
+.dv-2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt2 {
+  width: 746px;
+}
+.image2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 389px !important;
+}
+.txt2 {
+  color: black;
+  height: 238px;
+}
+.txt2 > h1 {
+  padding-top: -50px;
+  font-weight: 500;
+}
+.txt2 > h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 0%;
+}
+.box2 {
+  background-color: #eff7cf;
+}
+.TrBtn1 {
+  color: white;
+  font-size: medium;
+  background-color: #073042;
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 25px;
+  display: inline-block;
+  font-weight: 500;
+  margin: 4px, 4px, 4px, 12px;
+}
+.Cards {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.CardL {
+  margin-right: 15px;
+  height: 382px;
+  width: 552px;
+  background-color: #d7effe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cardtxt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.Cardtxt > h4 {
+  margin-top: -40px;
+}
+.Cardtxt > h1 {
+  margin-top: -10px;
+}
+.CardBtn {
+  color: #073042;
+  background-color: #d7effe;
+  border: 2px solid #073042;
+  margin-left: 12px;
+  border-radius: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 48px;
+  width: 142px;
+}
+.CardBtn:hover {
+  background-color: white;
+  border: none;
+}
+.CardR {
+  margin-left: 15px;
+  height: 382px;
+  width: 552px;
+  background-color: #073042;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardR > .Cardtxt {
+  color: white;
+}
+.CardRBtn {
+  color: #073042;
+  background-color: #3ddc84;
+  border: 2px solid #073042;
+  margin-left: 12px;
+  border-radius: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  height: 48px;
+  width: 135px;
+}
+.CardRBtn:hover {
+  background-color: #eff7cf;
+}
+.footer {
+  padding-left: 15px;
+  padding-right: -15px;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer > a {
+  padding-left: 25px;
+}
+.Seperator {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.142);
+}
